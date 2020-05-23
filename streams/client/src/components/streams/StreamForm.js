@@ -30,6 +30,7 @@ class StreamForm extends React.Component {
 
   render() {
     return (
+      /** handleSubmit came from the reduxForm */
       <form
         onSubmit={this.props.handleSubmit(this.onSubmit)}
         className="ui form error"
